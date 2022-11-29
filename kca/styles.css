@@ -1,0 +1,101 @@
+/** Courses section **/
+.Courses {
+    padding-top: 90px;
+    background: #fff;
+}
+.box_bg {
+    background: #c3c3c3;
+    padding: 10px 30px 30px 0px;
+   display: inline-block;
+   width: 100%;
+}
+.box_bg_img {
+    max-width: 500px;
+float: right;
+width: 100%;
+box-shadow: #ddd 0px 0px 0px 0px;
+}
+.box_bg_img .box_my {
+   text-align: center;
+   position: relative;
+   margin-top: 20px;
+   box-shadow: #4d4646ab 0px 0px 15px 1px;
+}
+.box_bg_img .box_my figure {
+   margin: 0;
+   position: relative;
+}
+.box_bg_img .box_my figure img {
+   width: 100%;
+}
+.box_bg_img .box_my .overlay h3, .box_bg_img .box_my .overlay p {
+   color: #fff;
+}
+.box_bg_img .box_my .overlay h3 {
+   font-weight: 500;
+   margin: 9px 0 0 0;
+   padding: 0;
+   padding-bottom: 9px;
+
+}
+
+.box_bg_img .box_my .overlay p {
+   line-height: normal;
+   margin-top: 8px;
+   height: 0;
+   overflow: hidden;
+   opacity: 0;
+   margin: 0;
+       transition: all .4s ease-in;
+}
+.box_bg_img .box_my:hover .overlay p {
+   height: 65px;
+   opacity: 1;
+   transition: ease all 0.5s;
+}
+.overlay {
+   position: absolute;
+   bottom: 0;
+   background: #200769;
+
+}
+.box_bg_img .box_my:hover .overlay {background: #200769bd;}
+
+
+.box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 25px 2px 2px 2px;
+}
+
+
+.box_text .titlepage {padding-bottom: 20px; text-align: right;}
+.box_text p {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: right;
+    color: #181716;
+}
+.box_text a {
+   font-size: 16px;
+border: #f4b328 solid 1px;
+background-color: #f4b328;
+color: #fff;
+padding: 9px 0px;
+max-width: 171px;
+width: 100%;
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+border-radius: 30px;
+
+margin-top: 20px;
+}
+.box_text a:hover {
+    background-color: #200769;
+    border: #200769 solid 1px;
+    color: #fff;
+}
+.padding_left3 {padding-left: 0px;}
+/** end Courses section **/
